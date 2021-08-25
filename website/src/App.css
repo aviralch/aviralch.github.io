@@ -1,0 +1,51 @@
+.homepage-bgimage {
+  background-image: url("./images/pexels-fwstudio-132193.jpg"); 
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.book-cover {
+  position: absolute;
+  width: 70vh;
+  height: 94vh;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background: #2B2D42;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  /* display: flex; */
+}
+
+.nav-bar-items{
+/* position: absolute; */
+width: 73.57px;
+height: 130.13px;
+background: #E86252;
+border-radius: 110px;
+padding: 5px;
+text-align: center;
+box-shadow: inset 20px 4px 4px rgba(0, 0, 0, 0.25);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+margin: auto;  /* Magic! */
+
+}
+
+.navbar-custom{
+  align-items: flex-end;
+  display: flex;
+  height: 130px;
+  left: 22em;
+  justify-content: space-around;
+  position: absolute;
+  top: 0;
+}
